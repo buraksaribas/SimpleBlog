@@ -6,7 +6,7 @@ namespace SimpleBlog.Controllers
     {
         public IActionResult Login()
         {
-            return Content("Auth");
+            return View();
         }
     }
 }

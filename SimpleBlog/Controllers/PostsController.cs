@@ -6,7 +6,7 @@ namespace SimpleBlog.Controllers
     {
         public IActionResult Index()
         {
-            return Content("Posts");
+            return View();
         }
     }
 }

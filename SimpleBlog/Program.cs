@@ -19,8 +19,6 @@ namespace SimpleBlog
             app.UseStaticFiles();
             app.UseRouting();
 
-            app.MapGet("/", () => "Hello World!");
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapAreaControllerRoute("Admin_default", "Admin", "admin/{controller}/{action=Index}/{id?}");

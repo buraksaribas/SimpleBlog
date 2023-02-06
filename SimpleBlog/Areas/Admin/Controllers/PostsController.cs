@@ -7,7 +7,7 @@ namespace SimpleBlog.Areas.Admin.Controllers
     {
         public IActionResult Index()
         {
-            return Content("Admin Posts");
+            return View();
         }
     }
 }
